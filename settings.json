@@ -1,3 +1,4 @@
+
 {
   "name": "Abdullah Bot",
   "bot-account": {
@@ -11,12 +12,11 @@
     "version": "1.21",
     "try-creative": false
   },
+
   "position": {
-    "enabled": true,
-    "x": 0,
-    "y": 100,
-    "z": 0
+    "enabled": false
   },
+
   "utils": {
     "auto-auth": {
       "enabled": true,
@@ -27,61 +27,41 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
-      "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
-      ]
+      "enabled": false
     },
     "chat-log": true,
-    "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect": true
   },
+
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "enabled": false
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 8000
     },
     "random-jump": {
-      "enabled": true,
-      "interval": 10000
+      "enabled": false
     }
   },
+
   "modules": {
     "avoidMobs": true,
     "combat": false,
     "beds": true,
-    "chat": true,
-    "console-commands": true
+    "chat": false
   },
+
   "combat": {
     "attack-mobs": false,
     "auto-eat": true
   },
+
   "beds": {
     "pick-up-day": false,
     "place-night": true
-  },
-  "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
-  },
-  "chat": {
-    "respond": true
   }
 }
+``
