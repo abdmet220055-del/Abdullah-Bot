@@ -12,46 +12,75 @@
     "version": "1.21",
     "try-creative": false
   },
+
   "position": {
     "enabled": false
   },
+
   "utils": {
     "auto-auth": {
       "enabled": true,
       "password": "chalol78"
     },
+
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
+
     "chat-messages": {
       "enabled": false
     },
+
     "chat-log": true,
+
     "auto-reconnect": true,
     "auto-reconnect-delay": 5000,
     "max-reconnect-delay": 120000
   },
+
   "movement": {
-    "enabled": false
+    "enabled": true,
+
+    "circle-walk": {
+      "enabled": true,
+      "radius": 2,
+      "speed": 6000
+    },
+
+    "look-around": {
+      "enabled": true,
+      "interval": 7000
+    },
+
+    "random-jump": {
+      "enabled": true,
+      "interval": 30000
+    }
   },
+
   "modules": {
     "avoidMobs": true,
     "combat": false,
     "beds": true
   },
+
   "combat": {
     "attack-mobs": false,
     "auto-eat": true
   },
+
   "beds": {
     "pick-up-day": false,
     "place-night": true
   },
+
   "discord": {
     "enabled": false
   },
+
   "chat": {
     "respond": false
   }
 }
+``
