@@ -42,37 +42,42 @@
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
+
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "radius": 3,
+      "speed": 6000
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 7000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 30000
     }
   },
+
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
+
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
+
   "beds": {
     "pick-up-day": false,
     "place-night": false
   },
+
   "discord": {
     "enabled": false,
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
@@ -82,7 +87,9 @@
       "chat": false
     }
   },
+
   "chat": {
     "respond": true
   }
 }
+``
