@@ -19,6 +19,7 @@
     "auto-auth": {
       "enabled": true,
       "password": "chalol78"
+    "send-immediately": true
     },
     "anti-afk": {
       "enabled": true,
