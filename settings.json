@@ -8,7 +8,7 @@
   "server": {
     "ip": "nl02-nQh3.aternos.me",
     "port": 19581,
-    "version": "auto",
+    "version": "1.21",
     "try-creative": false
   },
   "position": {
